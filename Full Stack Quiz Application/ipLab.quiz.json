@@ -1,0 +1,99 @@
+[{
+  "_id": {
+    "$oid": "6638e2c316c045c2e7069096"
+  },
+  "question": "Who is popularly known as Iron lady",
+  "op1": "Mamtha Banarjee",
+  "op2": "Indira Gandhi",
+  "op3": "Selvi J.Jayalalitha",
+  "op4": "Kalpana Chawla",
+  "answer": "Selvi J.Jayalalitha"
+},
+{
+  "_id": {
+    "$oid": "66390a1f16c045c2e70690a2"
+  },
+  "question": "Reactjs is a",
+  "op1": "Library",
+  "op2": "Framework",
+  "op3": "Bank-end language",
+  "op4": "Java package",
+  "answer": "Library"
+},
+{
+  "_id": {
+    "$oid": "663a3ab24eb132afb6074195"
+  },
+  "question": "When SSN college was started",
+  "op1": "1995",
+  "op2": "1996",
+  "op3": "1997",
+  "op4": "1998",
+  "answer": "19996"
+},
+{
+  "_id": {
+    "$oid": "663a550e16c045c2e70690c1"
+  },
+  "question": "Which language is considered as the mother of all languages",
+  "op1": "English",
+  "op2": "Tamil",
+  "op3": "Hindi",
+  "op4": "French",
+  "answer": "Tamil"
+},
+{
+  "_id": {
+    "$oid": "663a550e16c045c2e70690c2"
+  },
+  "question": "Brihadeeshwarar temple is located in",
+  "op1": "Madurai",
+  "op2": "Chennai",
+  "op3": "Thanjore",
+  "op4": "Thiruvannamalai",
+  "answer": "Thanjore"
+},
+{
+  "_id": {
+    "$oid": "663a550e16c045c2e70690c3"
+  },
+  "question": "Sri Sivasubramaniya Nadar college is currently located in which district",
+  "op1": "Kancheepuram",
+  "op2": "Chennai",
+  "op3": "Chengalpattu",
+  "op4": "Thiruvallur",
+  "answer": "Chengalpattu"
+},
+{
+  "_id": {
+    "$oid": "663a550e16c045c2e70690c4"
+  },
+  "question": "Who is considered as 'Kingmaker' in Indian politics",
+  "op1": "Vijayakanth",
+  "op2": "M.G.R",
+  "op3": "Kamarajar",
+  "op4": "Abdul kalam",
+  "answer": "Kamarajar"
+},
+{
+  "_id": {
+    "$oid": "663a550e16c045c2e70690c5"
+  },
+  "question": "Which programming language is not used in Web Development",
+  "op1": "Python",
+  "op2": "Java",
+  "op3": "C",
+  "op4": "JavaScript",
+  "answer": "C"
+},
+{
+  "_id": {
+    "$oid": "663a550e16c045c2e70690c6"
+  },
+  "question": "Pick Ramanujan's number",
+  "op1": "7777",
+  "op2": "1729",
+  "op3": "1024",
+  "op4": "1928",
+  "answer": "1729"
+}]

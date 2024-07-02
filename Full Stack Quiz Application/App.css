@@ -1,0 +1,237 @@
+/* General styles for the whole application */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(45deg, #e3f2fd, #bbdefb, #90caf9, #64b5f6); /* Colorful gradient background */
+}
+
+/* Container to center the content */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  min-height: 100vh; /* Full screen height */
+}
+
+/* Styling for the quiz card */
+.quiz-card {
+  background-color: #ffffff;
+  border-radius: 15px; /* Smooth corners */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  padding: 30px; /* Padding around the card */
+  margin-bottom: 20px; /* Space between card and other elements */
+  max-width: 600px; /* Limit width */
+  width: 90%; /* Relative width */
+  transition: transform 0.3s ease-in-out; /* Smooth hover transition */
+}
+
+.quiz-card:hover {
+  transform: translateY(-10px); /* Hover effect */
+}
+
+/* Styling for the question text */
+.question {
+  font-size: 24px; /* Reduced font size for better readability */
+  font-weight: 600; /* Lighter boldness */
+  text-align: center; /* Centered text */
+  margin-bottom: 20px; /* Space between question and other elements */
+}
+
+/* Styling for the timer */
+.timer {
+  font-size: 18px; /* Standard font size for readability */
+  font-weight: bold; /* Bold text */
+  color: #d32f2f; /* Red color for urgency */
+  text-align: center; /* Centered text */
+  padding: 10px; /* Padding around the timer */
+  background: #ffe0b2; /* Soft orange background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  margin-top: 20px; /* Space between timer and other elements */
+}
+
+/* Styling for the options container */
+.options {
+  display: flex;
+  flex-direction: column; /* Display options vertically */
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  gap: 20px; /* Space between options */
+  margin-bottom: 20px; /* Space between options and other elements */
+}
+
+/* Styling for the option buttons */
+.option-button {
+  background-color: #42a5f5; /* Light blue for the options */
+  color: white; /* White text for contrast */
+  border: none; /* No border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 12px; /* Padding for comfort */
+  font-size: 18px; /* Larger font size */
+  width: 100%; /* Ensures equal size */
+  max-width: 200px; /* Maximum width for uniformity */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+.option-button:hover {
+  background-color: #1e88e5; /* Darker blue on hover */
+}
+
+/* Styling for the submit and finish buttons */
+.submit-button, .finish-button {
+  background-color: #66bb6a; /* Light green for submit */
+  color: white; /* White text */
+  border-radius: 10px; /* Rounded corners */
+  border: none; /* No border */
+  padding: 12px; /* Padding for comfort */
+  font-size: 18px; /* Standard font size */
+  width: 100%; /* Ensures equal size */
+  max-width: 200px; /* Maximum width for uniformity */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  text-align: center; /* Centered text */
+  margin-top: 20px; /* Space between other elements */
+}
+
+.submit-button:hover, .finish-button:hover {
+  background-color: #388e3c; /* Darker green on hover */
+}
+
+/* Styling for the score display */
+.score {
+  font-size: 28px; /* Larger font size for emphasis */
+  font-weight: bold; /* Bold text */
+  color: #43a047; /* Green color for score */
+  margin-top: 20px; /* Space between elements */
+  text-align: center; /* Centered text */
+}
+
+/* Styling for the result message */
+.result-message {
+  font-size: 24px; /* Large font size */
+  color: #2ecc71; /* Green color */
+  font-weight: bold; /* Bold text */
+  text-align: center; /* Centered text */
+  margin-top: 20px; /* Space between elements */
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+  .quiz-card {
+    width: 100%; /* Full width on smaller screens */
+  }
+}
+
+.admin-page {
+  background: linear-gradient(45deg, #f7d794, #f3a683); /* Warm gradient for the admin page */
+  padding: 30px; /* Increased padding for comfort */
+  border-radius: 15px; /* Smooth corners */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  max-width: 700px; /* Limit width */
+  margin: 40px auto; /* Center the admin page with top margin */
+}
+
+/* Admin page heading */
+.admin-page h1 {
+  font-size: 32px; /* Larger font size for emphasis */
+  text-align: center; /* Centered heading */
+  color: #333; /* Dark text for contrast */
+}
+
+/* Styling for the buttons in the admin UI */
+.admin-buttons {
+  display: flex;
+  flex-direction: row; /* Horizontal arrangement */
+  justify-content: space-around; /* Evenly space buttons */
+  align-items: center; /* Align buttons vertically */
+  margin-bottom: 30px; /* Space between buttons and other elements */
+}
+
+.admin-buttons button {
+  background-color: #3b3b98; /* Deep blue for the buttons */
+  color: white; /* White text for contrast */
+  padding: 10px 20px; /* Padding for comfort */
+  border: none; /* No border */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 16px; /* Standard font size */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.admin-buttons button:hover {
+  background-color: #273c75; /* Darker blue on hover */
+}
+
+/* Styling for the "Add Question" form */
+.add-question-form {
+  background-color: #fff; /* White background for the form */
+  padding: 20px; /* Padding around the form */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  text-align: center; /* Centered form */
+}
+
+.add-question-form input {
+  padding: 10px; /* Padding for inputs */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Smooth corners */
+  margin-bottom: 15px; /* Space between inputs */
+  width: 90%; /* Adjusted width */
+}
+
+.add-question-form button {
+  background-color: #3b3b98; /* Deep blue for the submit button */
+  color: white; /* White text for contrast */
+  padding: 10px 20px; /* Padding for comfort */
+  border: none; /* No border */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 16px; /* Standard font size */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.add-question-form button:hover {
+  background-color: #273c75; /* Darker blue on hover */
+}
+
+/* Styling for the scores table */
+.scores-table {
+  background-color: #fff; /* White background for the table */
+  padding: 20px; /* Padding for the table */
+  border-radius: 10px; /* Smooth corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  text-align: center; /* Centered content */
+}
+
+.scores-table h2 {
+  font-size: 28px; /* Large font size for heading */
+  color: #333; /* Dark text for contrast */
+}
+
+.scores-table table {
+  width: 100%; /* Full width */
+  border-collapse: collapse; /* No gaps between cells */
+}
+
+.scores-table th, .scores-table td {
+  padding: 10px 15px; /* Padding for cells */
+  border-bottom: 1px solid #ddd; /* Light border */
+}
+
+.scores-table th {
+  background-color: #3b3b98; /* Blue for table headers */
+  color: white; /* White text for contrast */
+}
+
+.scores-table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray for even rows */
+}
+
+.scores-table tr:hover {
+  background-color: #ddd; /* Highlighted row on hover */
+}
