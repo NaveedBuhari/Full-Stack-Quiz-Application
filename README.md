@@ -41,8 +41,9 @@ Full-Stack-Quiz-Application/ │ ├── App.js # Main application component �
       ```bash
       npm install
 
-4. **Run the Application**
-         ```bash
-   node App.js
+3. **Run the Application**
+      ```bash
+      node App.js
+
 
  Note: This project may need MongoDB integration and separate frontend/backend handling for production deployment.
